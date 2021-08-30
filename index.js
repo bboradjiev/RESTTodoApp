@@ -1,6 +1,10 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // define variables and functions
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+//Local Storage for the todo App in separete branch
+
+
 const displayTodoItemsCount = function () {
     let count = todos.length || 0;
     nodes.totalItemsCount.innerHTML = count;
